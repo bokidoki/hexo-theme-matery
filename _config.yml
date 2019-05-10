@@ -32,10 +32,10 @@ cover:
 # index page dream text,
 # 配置首页显示"梦想"的语句.
 dream:
-  enable: false
-  showTitle: false
-  title: 
-  text: 
+  enable: true
+  showTitle: true
+  title: be what you want to be
+  text: Your time is limited, so don't waste it living someone else's life. Don't be trapped by dogma - which is living with the results of other people's thinking. Don't let the noise of others' opinions drown out your own inner voice. And most important, have the courage to follow your heart and intuition.
 
 # Whether to display the musics.
 # 是否在首页显示音乐.
