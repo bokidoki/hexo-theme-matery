@@ -2,22 +2,22 @@
 # 配置菜单导航的名称、路径和图标icon.
 menu:
   Index:
-    url: /me/
+    url: /
     icon: fa-home
   Tags:
-    url: /me/tags
+    url: /tags
     icon: fa-tags
   Categories:
-    url: /me/categories
+    url: /categories
     icon: fa-bookmark
   Archives:
-    url: /me/archives
+    url: /archives
     icon: fa-archive
   About:
-    url: /me/about
+    url: /about
     icon: fa-user-circle-o
   Friends:
-    url: /me/friends
+    url: /friends
     icon: fa-address-book
 
 # Index cover carousel configuration.
@@ -76,8 +76,8 @@ recommend:
 
 # Configure website favicon and LOGO
 # 配置网站favicon和网站LOGO
-favicon: /me/favicon.jpg
-logo: /me/medias/logo.png
+favicon: /favicon.jpg
+logo: /medias/logo.png
 
 # The configuration of the second button in the home banner,
 # including the display name of the button, the font awesome icon, and the hyperlink to the button.
@@ -152,7 +152,7 @@ clicklove:
 # profile in about page, including avatars, career, and personal introductions.
 # 在”关于”页面中配置个人信息，包括头像、职业和个人介绍.
 profile:
-  avatar: /me/medias/avatar.jpg
+  avatar: /medias/avatar.jpg
   career: Android Developer
   introduction: Love Life, Love Kotlin
 
@@ -209,9 +209,9 @@ mySkills:
 myGallery:
   enable: false
   data:
-    - /me/medias/featureimages/0.jpg
-    - /me/medias/featureimages/1.jpg
-    - /me/medias/featureimages/2.jpg
+    - /medias/featureimages/0.jpg
+    - /medias/featureimages/1.jpg
+    - /medias/featureimages/2.jpg
 
 # Whether to display post-calender in the `archive` page
 # 设置在归档页面中是否显示'文章日历'控件
@@ -300,57 +300,57 @@ googleAnalytics:
 # 使用到的前端库，可按需替换成对应的CDN地址，如果下面未指定具体的版本号，使用最新的版本即可.
 libs:
   css:
-    fontAwesome: /me/libs/awesome/css/font-awesome.min.css # V4.7.0
-    materialize: /me/libs/materialize/materialize.min.css # 1.0.0
-    aos: /me/libs/aos/aos.css
-    animate: /me/libs/animate/animate.min.css # V3.5.1
-    lightgallery: /me/libs/lightGallery/css/lightgallery.min.css # V1.6.11
-    aplayer: /me/libs/aplayer/APlayer.min.css
-    dplayer: /me/libs/dplayer/DPlayer.min.css
-    gitalk: /me/libs/gitalk/gitalk.css
-    jqcloud: /me/libs/jqcloud/jqcloud.css
-    tocbot: /me/libs/tocbot/tocbot.css
+    fontAwesome: /libs/awesome/css/font-awesome.min.css # V4.7.0
+    materialize: /libs/materialize/materialize.min.css # 1.0.0
+    aos: /libs/aos/aos.css
+    animate: /libs/animate/animate.min.css # V3.5.1
+    lightgallery: /libs/lightGallery/css/lightgallery.min.css # V1.6.11
+    aplayer: /libs/aplayer/APlayer.min.css
+    dplayer: /libs/dplayer/DPlayer.min.css
+    gitalk: /libs/gitalk/gitalk.css
+    jqcloud: /libs/jqcloud/jqcloud.css
+    tocbot: /libs/tocbot/tocbot.css
   js:
-    jquery: /me/libs/jquery/jquery-2.2.0.min.js
-    materialize: /me/libs/materialize/materialize.min.js # 1.0.0
-    masonry: /me/libs/masonry/masonry.pkgd.min.js # v4.0.0
-    aos: /me/libs/aos/aos.js
-    scrollProgress: /me/libs/scrollprogress/scrollProgress.min.js
-    lightgallery: /me/libs/lightGallery/js/lightgallery-all.min.js # V1.6.11
-    clicklove: /me/libs/others/clicklove.js
-    busuanzi: /me/libs/others/busuanzi.pure.mini.js
-    aplayer: /me/libs/aplayer/APlayer.min.js
-    dplayer: /me/libs/dplayer/DPlayer.min.js
-    crypto: /me/libs/cryptojs/crypto-js.min.js
-    echarts: /me/libs/echarts/echarts.min.js
-    gitalk: /me/libs/gitalk/gitalk.min.js
-    jqcloud: /me/libs/jqcloud/jqcloud-1.0.4.min.js
-    tocbot: /me/libs/tocbot/tocbot.min.js
+    jquery: /libs/jquery/jquery-2.2.0.min.js
+    materialize: /libs/materialize/materialize.min.js # 1.0.0
+    masonry: /libs/masonry/masonry.pkgd.min.js # v4.0.0
+    aos: /libs/aos/aos.js
+    scrollProgress: /libs/scrollprogress/scrollProgress.min.js
+    lightgallery: /libs/lightGallery/js/lightgallery-all.min.js # V1.6.11
+    clicklove: /libs/others/clicklove.js
+    busuanzi: /libs/others/busuanzi.pure.mini.js
+    aplayer: /libs/aplayer/APlayer.min.js
+    dplayer: /libs/dplayer/DPlayer.min.js
+    crypto: /libs/cryptojs/crypto-js.min.js
+    echarts: /libs/echarts/echarts.min.js
+    gitalk: /libs/gitalk/gitalk.min.js
+    jqcloud: /libs/jqcloud/jqcloud-1.0.4.min.js
+    tocbot: /libs/tocbot/tocbot.min.js
 
 # The post featured images that needs to be displayed when there is no image.
 # 无文章特色图片时需要显示的文章特色图片.
 featureImages: 
-- /me/medias/featureimages/0.jpg
-- /me/medias/featureimages/1.jpg
-- /me/medias/featureimages/2.jpg
-- /me/medias/featureimages/3.jpg
-- /me/medias/featureimages/4.jpg
-- /me/medias/featureimages/5.jpg
-- /me/medias/featureimages/6.jpg
-- /me/medias/featureimages/7.jpg
-- /me/medias/featureimages/8.jpg
-- /me/medias/featureimages/9.jpg
-- /me/medias/featureimages/10.jpg
-- /me/medias/featureimages/11.jpg
-- /me/medias/featureimages/12.jpg
-- /me/medias/featureimages/13.jpg
-- /me/medias/featureimages/14.jpg
-- /me/medias/featureimages/15.jpg
-- /me/medias/featureimages/16.jpg
-- /me/medias/featureimages/17.jpg
-- /me/medias/featureimages/18.jpg
-- /me/medias/featureimages/19.jpg
-- /me/medias/featureimages/20.jpg
-- /me/medias/featureimages/21.jpg
-- /me/medias/featureimages/22.jpg
-- /me/medias/featureimages/23.jpg
+- /medias/featureimages/0.jpg
+- /medias/featureimages/1.jpg
+- /medias/featureimages/2.jpg
+- /medias/featureimages/3.jpg
+- /medias/featureimages/4.jpg
+- /medias/featureimages/5.jpg
+- /medias/featureimages/6.jpg
+- /medias/featureimages/7.jpg
+- /medias/featureimages/8.jpg
+- /medias/featureimages/9.jpg
+- /medias/featureimages/10.jpg
+- /medias/featureimages/11.jpg
+- /medias/featureimages/12.jpg
+- /medias/featureimages/13.jpg
+- /medias/featureimages/14.jpg
+- /medias/featureimages/15.jpg
+- /medias/featureimages/16.jpg
+- /medias/featureimages/17.jpg
+- /medias/featureimages/18.jpg
+- /medias/featureimages/19.jpg
+- /medias/featureimages/20.jpg
+- /medias/featureimages/21.jpg
+- /medias/featureimages/22.jpg
+- /medias/featureimages/23.jpg
