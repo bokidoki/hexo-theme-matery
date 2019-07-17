@@ -94,6 +94,7 @@ indexbtn:
 socialLink:
   github: https://github.com/bokidoki
   email: yunhuiliao@gmail.com
+  leetcode: https://leetcode-cn.com/u/snooooopy
 
 # Whether to activate the Post TOC, and Configure which title types are supported by TOC support.
 # You can add `toc: false` to the Front-matter of a post to turn off the TOC.
